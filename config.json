@@ -133,7 +133,7 @@
   },
   "images": {
     "hero": "other/hero-01.jpg",
-    "about": "other/shop-01.jpg",
+    "about": "https://ubhmaudibilphahbrtyc.supabase.co/storage/v1/object/public/lead-assets/f02aa630-a29c-4ed2-a5b3-662b279282b3/about/Food%20Service.jpg",
     "gallery": [
       "other/shop-01.jpg",
       "other/shop-02.jpg",
