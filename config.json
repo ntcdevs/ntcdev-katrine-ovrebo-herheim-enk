@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "KATRINE ØVREBØ HERHEIM (ENK)",
+    "city": "Billingstad",
+    "category": "other",
+    "phone": "90785201",
+    "email": "katrineoh@outlook.com",
+    "address": "Billingstadsletta 22, 1396 Billingstad"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
+    "variant": "minimal",
+    "eyebrow": "Profesjonelle Tjenester · Billingstad",
+    "headline": "Katrine",
+    "headlineAccent": "Øvrebø Herheim",
+    "subheadline": "Personlig og dedikert service i Billingstad – vi hjelper deg med skreddersydde løsninger tilpasset dine behov og ønsker.",
+    "ctaText": "Ta Kontakt",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "10+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "300+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Personlig oppfølging"
+      },
+      {
+        "value": "5",
+        "label": "Dager åpent"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
-    "eyebrow": "Hva vi tilbyr",
-    "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "eyebrow": "Hva jeg tilbyr",
+    "heading": "Mine Tjenester",
+    "cta": "Kontakt meg for mer info",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Rådgivning",
+        "desc": "Grundig og personlig rådgivning tilpasset din situasjon og dine mål.",
+        "icon": "Star",
+        "price": ""
+      },
+      {
+        "name": "Prosjektledelse",
+        "desc": "Profesjonell planlegging og gjennomføring av prosjekter fra start til mål.",
+        "icon": "Shield",
+        "price": ""
+      },
+      {
+        "name": "Oppfølging & Support",
+        "desc": "Tett oppfølging og løpende støtte slik at du alltid føler deg ivaretatt.",
+        "icon": "Heart",
+        "price": ""
+      }
     ]
   },
   "about": {
-    "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "eyebrow": "Om Meg",
+    "heading": "Engasjement og Kvalitet",
+    "body": "Katrine Øvrebø Herheim driver et personlig enkeltpersonforetak basert i Billingstad, med et sterkt fokus på kvalitet og kundetilfredshet. Med mange års erfaring og en genuin interesse for å levere gode resultater, får hver kunde individuell oppmerksomhet. Målet er alltid å skape varige relasjoner bygget på tillit og profesjonalitet.",
+    "stat1": {
+      "value": "10+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "300+",
+      "label": "Gjennomførte oppdrag"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Dedikasjon"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
-    "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "heading": "Mitt Arbeid",
+    "subheading": "Et utvalg av prosjekter og resultater jeg er stolt av å dele."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Marte Johansen",
+        "role": "Fast kunde siden 2021",
+        "text": "Katrine er utrolig profesjonell og grundig i alt hun gjør. Jeg føler meg alltid trygg og godt ivaretatt.",
+        "rating": 5
+      },
+      {
+        "name": "Henrik Paulsen",
+        "role": "Kunde siden 2022",
+        "text": "Fantastisk service og en genuin interesse for å hjelpe. Katrine leverer alltid over forventning.",
+        "rating": 5
+      },
+      {
+        "name": "Silje Andersen",
+        "role": "Fast kunde siden 2020",
+        "text": "Personlig oppfølging på høyeste nivå. Jeg anbefaler Katrine til alle som verdsetter kvalitet og pålitelighet.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
-    "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "heading": "Kontakt Meg",
+    "subheading": "Har du spørsmål eller ønsker å vite mer? Ikke nøl med å ta kontakt – jeg svarer gjerne."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
